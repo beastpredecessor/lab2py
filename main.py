@@ -6,7 +6,7 @@
 # Breakout: 5
 
 
-def getLetterGrade(grade)
+def getLetterGrade(grade):
   if grade >= 93.0:
     return("A")
   elif grade >= 90.0:
