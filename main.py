@@ -5,8 +5,9 @@
 # Section: 4
 # Breakout: 5
 
-import main
+
 def getLetterGrade(grade):
+  grade = float(grade)
   if grade >= 93.0:
     return("A")
   elif grade >= 90.0:
